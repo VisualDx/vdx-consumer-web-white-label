@@ -1,0 +1,283 @@
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+}
+
+.modal {
+    width: 90%;
+    max-width: 428px;
+    max-height: min(82vh, 720px);
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.facet {
+    color: #6b7280;
+    font-size: 18px;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.backBtn,
+.closeBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: #d8dde5;
+    font-size: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+    line-height: 32px;
+}
+
+.backBtn:hover,
+.closeBtn:hover
+{
+    filter: brightness(0.95);
+}
+
+.backBtn:active,
+.closeBtn:active
+{
+    transform: translateY(1px);
+}
+
+
+.icon {
+    font-size: 26px;
+    line-height: 26px;
+    transform: translateY(-1px);
+}
+
+
+.headerText {
+    min-width: 0;
+}
+
+.headerTitle {
+    font-weight: 700;
+    color: #111;
+}
+
+.body {
+    padding: 18px;
+}
+
+.subtitle {
+    color: #6b7280;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.prompt {
+    font-size: 22px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 16px;
+}
+
+.answersGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));  /* ✅ giống demo */
+    gap: 16px;
+}
+
+@media (max-width: 680px) {
+    .answersGrid {
+        grid-template-columns: 1fr;
+    }
+    .prompt {
+        font-size: 18px;
+    }
+}
+
+/* ===== Answer card ===== */
+.answerCard {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    padding: 16px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.answerCard:hover {
+    border-color: #cbd5e1;
+}
+
+.answerIconWrap {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    border-radius: 999px;
+    border: 3px solid #fff;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+}
+
+.answerIcon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.answerIconFallback {
+    width: 46px;
+    height: 46px;
+    border-radius: 999px;
+    background: #e5e7eb;
+}
+
+.answerLabel {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    line-height: 1.25;
+}
+
+/* ===== Findings ===== */
+.findingsWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.findingsTitle {
+    font-weight: 700;
+    color: #111;
+}
+
+.findingsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.findingsScroll {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-height: 52vh;
+    overflow: auto;
+    padding-right: 6px;
+}
+
+.findingRow {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.findingRow:hover {
+    border-color: #cbd5e1;
+}
+
+.findingRowIcon {
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+    object-fit: cover;
+    background: #f3f4f6;
+    border: 3px solid #fff;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    flex: 0 0 auto;
+}
+
+.findingInfo {
+    min-width: 0;
+}
+
+.findingId {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #0ea5e9;
+    font-weight: 600;
+}
+
+@media (max-width: 680px) {
+    .findingsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.findingCard {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    padding: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.findingCard:hover {
+    border-color: #cbd5e1;
+}
+
+.findingIconWrap {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.findingIcon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.findingName {
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 4px;
+}
+
+.findingDesc {
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.35;
+}
