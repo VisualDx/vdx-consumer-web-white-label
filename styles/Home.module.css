@@ -1,0 +1,83 @@
+.page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 10px;
+}
+
+/* Mobile-first container matching the 602px mock width */
+.main {
+  max-width: 428px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 28px 20px 32px;
+}
+
+/* Centered brand logo at the top */
+.logoWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+/* Primary headline */
+.title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  margin: 0 0 60px;
+  text-align: center;
+}
+
+/* Narrow text column for readable body copy */
+.disclaimerBlock {
+  max-width: 420px;
+  margin: 0 auto 64px;
+}
+
+/* Descriptive text (left-aligned per mock) */
+.disclaimer {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #111;
+  margin: 0;
+  text-align: left;
+}
+
+.disclaimer + .disclaimer {
+  margin-top: 20px;
+}
+
+/* Wrapper to keep CTA centered on the visual axis */
+.ctaWrap {
+  display: flex;
+  justify-content: center;
+}
+
+/* Primary action button */
+.cta {
+  width: 100%;
+  max-width: 420px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 16px 18px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+
+  background: #D31710;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+
+  box-shadow: none;
+}
+
+.arrow {
+  font-size: 18px;
+}

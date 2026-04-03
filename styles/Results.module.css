@@ -1,0 +1,202 @@
+.page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.card {
+  max-width: 428px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 0 0 28px 28px;
+  padding-bottom: 32px;
+  min-height: calc(100vh - 10px);
+}
+
+/* Header - Fixed at top */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.backButton {
+  position: absolute;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e8e8e8;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  padding: 0;
+}
+
+.backButton:hover {
+  background: #d8d8d8;
+}
+
+.backButton:active {
+  background: #c8c8c8;
+}
+
+.backIcon {
+  font-size: 24px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  text-align: center;
+}
+
+/* Logo Wrap */
+.logoWrap {
+  display: none;
+}
+
+/* Loading and Error States */
+.loadingMessage,
+.errorMessage {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 16px;
+  color: #666666;
+  background: #ffffff;
+}
+
+.errorMessage {
+  color: #e53935;
+}
+
+.noResults {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  background: #ffffff;
+}
+
+/* Results List - Grid layout */
+/* Results List - Grid layout */
+.resultsList {
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  background: #ffffff;
+}
+
+/* Diagnosis Card - Vertical layout (image on top) */
+.diagnosisCard {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.diagnosisCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.diagnosisCard:active {
+  transform: translateY(0);
+}
+
+/* Diagnosis Image - Full width on top */
+.imageWrapper {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  background: #f0f0f0;
+  position: relative;
+}
+
+.diagnosisImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+}
+
+/* Diagnosis Info - Bottom section */
+.diagnosisInfo {
+  padding: 14px 16px;
+}
+
+.diagnosisName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imageCount {
+  font-size: 13px;
+  color: #888888;
+  margin: 0;
+}
+
+/* CTA Wrap */
+/* CTA Wrap */
+.ctaWrap {
+  padding: 0 20px 16px;
+  background: #ffffff;
+}
+
+/* Error state back button */
+.errorBackButton {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid #e53935;
+  background: #ffffff;
+  color: #e53935;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.errorBackButton:hover {
+  background: #e53935;
+  color: #ffffff;
+}
+
+.errorBackButton:active {
+  transform: scale(0.98);
+}

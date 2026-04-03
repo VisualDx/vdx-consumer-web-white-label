@@ -1,0 +1,205 @@
+{"path": "Elevation", "id": "question0", "title": "Is the affected skin", "answers":[
+    {"path": "Elevation? > Raised", "id": "answer1", "prompt": "Raised or Bumpy", "icon": "raised", "question":
+        {"path": "Elevation? > Raised > Raised Type?", "id": "question1", "title": "Is the raised skin", "answers": [
+            {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky", "id": "answer11", "prompt": "Rough or Flaky", "icon": "rough", "question":
+                {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size?", "id": "question11", "title": "Is the affected area?", "answers": [
+                    {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Small", "id": "answer111", "prompt": "Smaller than a thumb nail", "icon": "rough-small", "findings": [
+                        {"findingId": 3125, "description": "Is it a small flaky bump?", "name": "Fine Scaly Papule", "icon": "fine-scaly-papule"},
+                        {"findingId": 3134, "description": "Is it a small raised bump that is rough with thick scales or flakes?", "name": "Thick Scaly Papule", "icon": "thick-scaly-papule"},
+                        {"findingId": 3126, "description": "Is it a small warty bump?", "name": "Verrucous Scaly Papule", "icon": "verrucous-scaly-papule"},
+                        {"findingId": 3103, "description": "Is it a red or pink mark left behind from scraping off a bump on the skin or a scab?", "name": "Excoriated Skin Lesion", "icon": "excoriated-skin-lesion"},
+                        {"findingId": 3102, "description": "Is it a hard little \u201chorn\u201d projecting up from the skin?", "name": "Cutaneous Horn", "icon": "cutaneous-horn"}
+                    ]},
+                    {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large", "id": "answer112", "prompt": "Larger than a thumb nail", "icon": "rough", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large > Surface?", "id": "question112", "title": "Is the affected area?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large > Surface? > Thick", "id": "answer1121", "prompt": "Thick or Raised", "icon": "rough", "findings": [
+                                {"findingId": 3115, "description": "Is it a raised or bumpy area of skin bigger than your thumbnail that is rough with thick scales or flakes?", "name": "Thick Scaly Plaque", "icon": "thick-scaly-plaque"},
+                                {"findingId": 3121, "description": "Is it a raised or bumpy area of skin bigger than your thumbnail that is rough with white scales or flakes?", "name": "White Scaly Plaque", "icon": "white-scaly-plaque"},
+                                {"findingId": 3116, "description": "Is the skin thickened and rough?", "name": "Callus", "icon": "callus"},
+                                {"findingId": 3119, "description": "Is it a thickened area of skin with marks? (It is usually caused by repeated rubbing and scratching of the area.) ", "name": "Lichenified-plaque", "icon": "lichenified-plaque"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large > Surface? > Thin", "id": "answer1122", "prompt": "Thin or close to the surface", "icon": "rough-thin", "findings": [
+                                {"findingId": 3107, "description": "Is it a flaky raised or bumpy area that is bigger than your thumbnail?", "name": "Fine Scaly Plaque", "icon": "fine-scaly-plaque"},
+                                {"findingId": 3111, "description": "Is the area of skin rough to the touch with a pattern that resembles fish scales?", "name": "Ichthyotic Scaly Plaque", "icon": "ichthyotic-scaly-plaque"},
+                                {"findingId": 20223, "description": "Is it a very thin (threadlike) bending line, like a tiny burrow, in the skin?", "name": "Linear Burrow", "icon": "linear-burrow"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large > Surface? > Warty", "id": "answer1123", "prompt": "Warty", "icon": "rough-warty", "findings": [
+                                {"findingId": 3124, "description": "Is it a warty area of skin bigger than your thumbnail?", "name": "Verrucous Scaly Plaque", "icon": "verrucous-scaly-plaque"},
+                                {"findingId": 3123, "description": "Is it a raised area of skin bigger than your thumbnail with lots of bumps and growths (may be scaly)?", "name": "Vegetative Plaque", "icon": "vegetative-plaque"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Rough or Flaky > Size? > Large > Surface? > Crust/Scab/Weeping", "id": "answer1124", "prompt": "Crust, Scab, or Weeping", "icon": "rough-scab", "findings": [
+                                {"findingId": 3117, "description": "Is there a crusty layer of dried fluid, blood, or pus? ", "name": "Crust", "icon": "crust"},
+                                {"findingId": 3104, "description": "Is an area on the skin oozing or \u201cweeping\u201d?", "name": "Exudative or Weeping", "icon": "exudative-weeping"},
+                                {"findingId": 3008, "description": "Is the skin peeling or flaking off?", "name": "Desquamation", "icon": "desquamation"},
+                                {"findingId": 3118, "description": "Is it a dry black crusty scab that does not come off easily?", "name": "Eschar", "icon": "eschar"}
+                            ]}
+                        ]}
+                    }
+                ]}
+            },
+            {"path": "Elevation? > Raised > Raised Type? > Smooth", "id": "answer12", "prompt": "Smooth", "icon": "smooth", "question":
+                {"path": "Elevation? > Raised > Raised Type? > Smooth > Size?", "id": "question12", "title": "Is the affected area?", "answers": [
+                    {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Small", "id": "answer121", "prompt": "Smaller than a thumb nail", "icon": "smooth-smaller", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Small > Color?", "id": "question121", "title": "Has the affected area changed color?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Small > Color? > Color Change", "id": "answer1211", "prompt": "Significant color change", "icon": "smooth-smaller-color", "findings": [
+                                {"findingId": 22440, "description": "Is it a small solid bump that is darker than normal skin tone (brown, blue, gray, or black in color)?", "name": "Pigmented Papule", "icon": "pigmented-papule"},
+                                {"findingId": 3310, "description": "Is it a small bump with a bright or deep red color?", "name": "Hemorrhagic Papule", "icon": "hemorrhagic-papule"},
+                                {"findingId": 20290, "description": "Is it a smooth round pink to red to brown bump that bleeds easily?", "name": "Friable Papule", "icon": "friable-papule"},
+                                {"findingId": 20255, "description": "Does it look like a \u201cblackhead\u201d (small bump with a dark center)?", "name": "Open Comedone", "icon": "open-comedone"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Small > Color? > No Color Change", "id": "answer1212", "prompt": "No change or some redness", "icon": "smooth-smaller", "findings": [
+                                {"findingId": 3083, "description": "Is it a small, smooth, solid bump?", "name": "Smooth Papule", "icon": "smooth-papule"},
+                                {"findingId": 3088, "description": "Is it a small, raised, solid bump with a central indentation?", "name": "Umbilicated Papule", "icon": "umbilicated-papule"},
+                                {"findingId": 3306, "description": "Does it look like a skin tag (a small growth connected to the skin by a narrow \u201cstalk\u201d)?", "name": "Pedunculated Papule", "icon": "pedunculated-papule"},
+                                {"findingId": 3080, "description": "Is it a solid raised bump that is smooth and firm to the touch?", "name": "Smooth Nodule", "icon": "smooth-nodule"},
+                                {"findingId": 3309, "description": "Is it a tiny, raised, solid bump?", "name": "Tiny Papule", "icon": "tiny-papule"}
+                            ]}
+                        ]}
+                    },
+                    {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Large", "id": "answer122", "prompt": "Larger than a thumb nail", "icon": "smooth", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Large > Color>", "id": "question122", "title": "Has the affected area changed color?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Large > Color? > Color Change", "id": "answer1221", "prompt": "Significant color change", "icon": "smooth-smaller-color", "findings": [
+                                {"findingId": 3318, "description": "Is it a raised area of skin larger than your thumbnail with different colors (black, red, and/or blue)? It may be bumpy.", "name": "Multicolored Plaque", "icon": "multicolored-plaque"},
+                                {"findingId": 3317, "description": "Is it a solid raised or bumpy area bigger than your thumbnail that is darker than normal skin tone (brown, blue, gray, or black in color)?", "name": "Pigmented Plaque", "icon": "pigmented-plaque"},
+                                {"findingId": 3074, "description": "Is it a raised area of red-purple skin that does not disappear when you press it?", "name": "Palpable Purpura", "icon": "palpable-purpura"},
+                                {"findingId": 3311, "description": "Is it a raised or bumpy area of skin bigger than your thumbnail that is a deep red or purple color?", "name": "Vascular Plaque", "icon": "vascular-plaque"},
+                                {"findingId": 3078, "description": "Is the skin discolored purplish-black from a lack of blood supply?", "name": "Gangrene", "icon": "gangrene"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Smooth > Size? > Large > Color? > No Color Change", "id": "answer1222", "prompt": "No change or some redness", "icon": "smooth", "findings": [
+                                {"findingId": 3089, "description": "Is it a smooth, raised area of skin larger than your thumbnail?", "name": "Smooth Plaque", "icon": "smooth-plaque"},
+                                {"findingId": 3098, "description": "Does it look like hives (pale to skin colored to pink to red welts)? It may be itchy.", "name": "Wheal", "icon": "wheal"},
+                                {"findingId": 3304, "description": "Is there a sunken sore or wound surrounded by a raised area of skin larger than your thumbnail?", "name": "Plaque with Ulcer", "icon": "plaque-with-ulcer"},
+                                {"findingId": 3254, "description": "Is it a raised and thickened scar? It may be red in color or darker or lighter than the surrounding skin.", "name": "Raised Scar or Keloid", "icon": "raised-scar"},
+                                {"findingId": 3096, "description": "Is it a flat, smooth area of skin that is hard (like wood) to the touch?", "name": "Sclerotic Skin Lesion", "icon": "sclerotic-lesion"}
+                            ]}
+                        ]}
+                    }
+                ]}
+            },
+            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled", "id": "answer13", "prompt": "Fluid Filled", "icon": "fluid-filled", "question":
+                {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type?", "id": "question13", "title": "Type of fluid?", "answers": [
+                    {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Clear", "id": "answer131", "prompt": "Clear", "icon": "fluid-filled--clear", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Clear > Size?", "id": "question131", "title": "How large are the lesions?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Clear > Size? > Small", "id": "answer1311", "prompt": "Smaller than a thumb nail", "icon": "fluid-filled--clear-smaller", "findings": [
+                                {"findingId": 3058, "description": "Is it a small blister?", "name": "Vesicle", "icon": "vesicle"},
+                                {"findingId": 3060, "description": "Is it a small blister that is taut (firm to the touch)?", "name": "Tense Vesicle", "icon": "tense-vesicle"},
+                                {"findingId": 3065, "description": "Is it a small, raised, fluid-filled bump with a central indentation?", "name": "Umbilicated Vesicle", "icon": "umbilicated-vesicle"},
+                                {"findingId": 3059, "description": "Is it a small blister on the finger, palm, or sole?", "name": "Dyshidrotic Vesicle", "icon": "dyshidrotic-vesicle"},
+                                {"findingId": 3064, "description": "Is it a tiny, raised, fluid-filled bump? ", "name": "Tiny Vesicle", "icon": "tiny-vesicle"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Clear > Size? > Large", "id": "answer1312", "prompt": "Larger than a thumb nail", "icon": "fluid-filled--clear", "findings": [
+                                {"findingId": 24517, "description": "Is it a blister bigger than your thumbnail?", "name": "Bullae", "icon": "bullae"},
+                                {"findingId": 3128, "description": "Is it a soft or saggy looking blister bigger than your thumbnail?", "name": "Flaccid Bullae", "icon": "flaccid-bullae"},
+                                {"findingId": 3055, "description": "Is it a taut-looking blister (firm to the touch) bigger than your thumbnail? ", "name": "Tense Bullae", "icon": "tense-bullae"},
+                                {"findingId": 3104, "description": "Is an area on the skin oozing or \u201cweeping\u201d?", "name": "Exudative or Weeping", "icon": "exudative-weeping"}
+                            ]}
+                        ]}
+                    },
+                    {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Blood", "id": "answer132", "prompt": "Blood-Filled", "icon": "fluid-filled--blood", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Blood > Size?", "id": "question132", "title": "How large are the lesions?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Blood > Size? > Small", "id": "answer1321", "prompt": "Smaller than a thumb nail", "icon": "fluid-filled--blood-smaller", "findings": [
+                                {"findingId": 3310, "description": "Is it a small bump with a bright or deep red color?", "name": "Hemorrhagic Papule", "icon": "hemorrhagic-papule"},
+                                {"findingId": 20290, "description": "Is it a smooth round pink to red to brown bump that bleeds easily?", "name": "Friable Papule", "icon": "friable-papule"},
+                                {"findingId": 3058, "description": "Is it a small blister?", "name": "Vesicle", "icon": "vesicle"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Blood > Size? > Large", "id": "answer1322", "prompt": "Larger than a thumb nail", "icon": "fluid-filled--blood", "findings": [
+                                {"findingId": 3104, "description": "Is an area on the skin oozing or \u201cweeping\u201d?", "name": "Exudative or Weeping", "icon": "exudative-weeping"},
+                                {"findingId": 24517, "description": "Is it a blister bigger than your thumbnail?", "name": "Bullae", "icon": "bullae"}
+                            ]}
+                        ]}
+                    },
+                    {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Pus", "id": "answer133", "prompt": "Pus-filled", "icon": "fluid-filled--pus", "question":
+                        {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Pus > Size?", "id": "question133", "title": "How large are the lesions?", "answers": [
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Pus > Size? > Small", "id": "answer1331", "prompt": "Smaller than a thumb nail", "icon": "fluid-filled--pus-smaller", "findings": [
+                                {"findingId": 3052, "description": "Is it a small bump containing pus?", "name": "Pustule", "icon": "pustule"},
+                                {"findingId": 3050, "description": "Do you have little bumps where the hair on your skin grows? (Bumps may be red and sometimes have small amounts of pus.)", "name": "Folliculitis", "icon": "folliculitis"},
+                                {"findingId": 3051, "description": "Is it a painful red bump bigger than your thumbnail, possibly with pus showing at the center?", "name": "Furuncle", "icon": "furuncle"},
+                                {"findingId": 3044, "description": "Is it a swollen red, warm, and tender bump/lump with pus inside?", "name": "Abscess", "icon": "abscess"},
+                                {"findingId": 3058, "description": "Small blister", "name": "Vesicle", "icon": "vesicle"}
+                            ]},
+                            {"path": "Elevation? > Raised > Raised Type? > Fluid-Filled > Fluid Type? > Pus > Size? > Large", "id": "answer1332", "prompt": "Larger than a thumb nail", "icon": "fluid-filled--pus", "findings": [
+                                {"findingId": 3044, "description": "Is it a red, swollen, tender lump (with pus inside)?", "name": "Abscess", "icon": "abscess"},
+                                {"findingId": 3051, "description": "Is it a painful red bump bigger than your thumbnail, possibly with pus showing at the center?", "name": "Furuncle", "icon": "furuncle"},
+                                {"findingId": 24517, "description": "Is it a blister bigger than your thumbnail? ", "name": "Bullae", "icon": "bullae"},
+                                {"findingId": 3104, "description": "Is an area on the skin oozing or \u201cweeping\u201d?", "name": "Exudative or Weeping", "icon": "exudative-weeping"}
+                            ]}
+                        ]}
+                    }
+                ]}
+            },
+            {"path": "Elevation? > Raised > Raised Type? > Mass", "id": "answer14", "prompt": "Mass under the skin", "icon": "smooth-mass", "findings": [
+                {"findingId": 3077, "description": "Is it an enclosed lump underneath the skin? It may contain liquid or semisolid or gaseous material.", "name": "Cyst", "icon": "cyst"},
+                {"findingId": 3044, "description": "Is it a red, swollen, tender lump (with pus inside)?", "name": "Abscess", "icon": "abscess"},
+                {"findingId": 3080, "description": "Is it a solid raised bump that is smooth and firm to the touch?", "name": "Smooth Nodule", "icon": "smooth-nodule"},
+                {"findingId": 3097, "description": "Is it a lump on or beneath the skin that is larger than a golf ball?", "name": "Tumor", "icon": "tumor"}
+            ]}
+        ]}
+    },
+    {"path": "Elevation? > Flat", "id": "answer2", "prompt": "Flat", "icon": "flat", "question":
+        {"path": "Elevation? > Flat > Size?", "id": "question2", "title": "How large is the affected area?", "answers":[
+            {"path": "Elevation? > Flat > Size? > Patch/Macule", "id": "answer21", "prompt": "Patch or Macule", "icon": "darker", "question":
+                {"path": "Elevation? > Flat > Size? > Patch/Macule > Color>", "id": "question21", "title": "What color is the affected area?", "answers":[
+                    {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Increased Pigment", "id": "answer211", "prompt": "Increased Pigment", "icon": "darker", "findings": [
+                        {"findingId": 3266, "description": "Is it a small, flat, smooth area of skin that is darker than normal skin tone (brown, blue, gray, or black in color)?", "name": "Hyperpigmented Macule", "icon": "hyperpigmented-macule"},
+                        {"findingId": 3267, "description": "Is it a flat, smooth area of skin larger than your thumbnail that is darker than normal skin tone (brown, blue, gray, or black in color)?", "name": "Hyperpigmented Patch", "icon": "hyperpigmented-patch"},
+                        {"findingId": 22440, "description": "Is it a small solid bump that is darker than normal skin tone (brown, blue, gray, or black in color)?", "name": "Pigmented Papule", "icon": "pigmented-papule"},
+                        {"findingId": 3016, "description": "Are there darker and lighter areas of skin as well as redness, with fine blood vessels (\u201cspider veins\u201d) showing?", "name": "Poikilodermatous", "icon": "poikilodermatous"}
+                    ]},
+                    {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Decreased Pigment", "id": "answer212", "prompt": "Decreased Pigment", "icon": "lighter", "findings": [
+                        {"findingId": 3027, "description": "Is it a small, flat, smooth area of skin that is lighter than normal skin tone?", "name": "Hypopigmented Macule", "icon": "hypopigmented-macule"},
+                        {"findingId": 3268, "description": "Is it a flat, smooth area of skin larger than your thumbnail that is lighter than normal skin tone?", "name": "Hypopigmented Patch", "icon": "hypopigmented-patch"}
+                    ]},
+                    {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Pink/Red/Purple", "id": "answer213", "prompt": "Pink, Red, or Purple", "icon": "purple-red", "question":
+                        {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Pink/Red/Purple > When Pressed?", "id": "question213", "title": "Does the area lose color when pressed?", "answers":[
+                            {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Pink/Red/Purple > When Pressed? > Blanches", "id": "answer2131", "prompt": "Yes", "icon": "purple-red-blanches", "findings": [
+                                {"findingId": 3269, "description": "Is it a small, flat, smooth area of skin darker in color from the surrounding skin that temporarily disappears when pressed on?", "name": "Blanching Macule", "icon": "blanching-macule"},
+                                {"findingId": 3270, "description": "Is it a flat and smooth area of skin bigger than your thumbnail that is darker than surrounding skin and temporarily disappears when pressed on?", "name": "Blanching Patch", "icon": "blanching-patch"},
+                                {"findingId": 3043, "description": "Are there flat red to blue to purple marks (fine blood vessels, or \u201cspider veins\u201d) on the skin that disappear temporarily when pressed on?", "name": "Telangiectasia", "icon": "telangiectasia"}
+                            ]},
+                            {"path": "Elevation? > Flat > Size? > Patch/Macule > Color? > Increased Pigment > When Pressed? > Does Not Blanch", "id": "answer2132", "prompt": "No", "icon": "purple-red-no-blanch", "findings": [
+                                {"findingId": 3072, "description": "Does it look like a bruise?", "name": "Ecchymosis", "icon": "ecchymosis"},
+                                {"findingId": 3073, "description": "Are there tiny red spots on the skin that do not change color when pressed on?", "name": "Skin Petechiae", "icon": "skin-petechiae"},
+                                {"findingId": 3071, "description": "Are there tiny orangish-brown dots (described as \u201csprinkled cayenne pepper\u201d) that do not disappear when pressed on?", "name": "Cayenne Pepper-Like Purpura", "icon": "cayenne-pepper-like-purpura"}
+                            ]}
+                        ]}
+                    }
+                ]}
+            },
+            {"path": "Elevation? > Flat > Size? > Broad Area", "id": "answer22", "prompt": "Broad area of color", "icon": "darker-broad", "findings": [
+                {"findingId": 3040, "description": "Is there a purplish lace-like or net-like pattern on the skin?", "name": "Reticular - Netlike", "icon": "reticular-netlike"},
+                {"findingId": 3026, "description": "Is the skin all over your body very red (and possibly peeling or flaking)?", "name": "Erythroderma", "icon": "erythroderma"},
+                {"findingId": 3265, "description": "Is the skin a bluish, purple, or white color from poor circulation?", "name": "Cyanosis", "icon": "cyanosis"},
+                {"findingId": 3078, "description": "Is the skin discolored purplish-black from a lack of blood supply?", "name": "Gangrene", "icon": "gangrene"}
+            ]}
+        ]}
+    },
+	{"path": "Elevation? > Sunken", "id": "answer3", "prompt": "Skin Loss or Sunken", "icon": "sunken", "question":
+		{"path": "Elevation? > Sunken > Sunken Type?", "id": "question3", "title": "What type of tissue damage?", "answers": [
+			{"path": "Elevation? > Sunken > Sunken Type? > Thinning/Atrophy", "id": "answer31", "prompt": "Thinning or Atrophy", "icon": "thinning", "findings": [
+				{"findingId": 3019, "description": "Does it look like \u201cstretch marks\u201d?", "name": "Striae", "icon": "striae"},
+				{"findingId": 3002, "description": "Does the area of skin look weak and thin or sunken?", "name": "Atrophy", "icon": "atrophy"},
+				{"findingId": 3015, "description": "Are there small holes or craters in the skin?", "name": "Pits", "icon": "pits"},
+				{"findingId": 3018, "description": "Is it a hole or \u201ctunnel\u201d in the skin? There may be pus, fluid, or more solid debris inside.", "name": "Sinus", "icon": "sinus"},
+				{"findingId": 3016, "description": "Are there darker and lighter areas of skin as well as redness, with fine blood vessels (\u201cspider veins\u201d) showing?", "name": "Poikilodermatous", "icon": "poikilodermatous"}
+			]},
+			{"path": "Elevation? > Sunken > Sunken Type? > Fissures/Cracking", "id": "answer32", "prompt": "Fissures or Cracking", "icon": "fissure", "findings": [
+				{"findingId": 3006, "description": "Is it a line-shaped crack in the skin? The skin around it may be thickened. ", "name": "Skin Cracks", "icon": "skin-cracks"},
+				{"findingId": 3014, "description": "Are there tiny thin cracks in the skin?", "name": "Fine Skin Fissures", "icon": "fine-skin-fissures"},
+				{"findingId": 3007, "description": "Is it a deep crack in a thickened area of skin?", "name": "Deep Skin Fissures", "icon": "deep-skin-fissures"}
+			]},
+			{"path": "Elevation? > Sunken > Sunken Type? > Scarring", "id": "answer33", "prompt": "Scarring", "icon": "scar", "findings": [
+				{"findingId": 3019, "description": "Does it look like \u201cstretch marks\u201d?", "name": "Striae", "icon": "striae"},
+				{"findingId": 3017, "description": "Is it a sunken scar?", "name": "Atrophic scar", "icon": "atrophic-scar"},
+				{"findingId": 3015, "description": "Are there small holes or craters in the skin?", "name": "Pits", "icon": "pits"},
+				{"findingId": 3016, "description": "Are there darker and lighter areas of skin as well as redness, with fine blood vessels (\u201cspider veins\u201d) showing?", "name": "Poikilodermatous", "icon": "poikilodermatous"}
+			]},
+			{"path": "Elevation? > Sunken > Sunken Type? > Ulcer/Erosion", "id": "answer34", "prompt": "Ulcers or Erosion", "icon": "erosion", "findings": [
+				{"findingId": 3013, "description": "Is it a mark due to scratching or picking the skin?", "name": "Excoriation", "icon": "excoriation"},
+				{"findingId": 3011, "description": "Is it an area that appears sunken and is missing the top layer of skin?", "name": "Erosion", "icon": "skin-erosion"},
+				{"findingId": 3020, "description": "Is it a wound or sore that is missing skin?", "name": "Ulcer", "icon": "skin-ulcer"},
+				{"findingId": 3018, "description": "Is it a hole or \u201ctunnel\u201d in the skin? There may be pus, fluid, or more solid debris inside.", "name": "Sinus", "icon": "sinus"},
+				{"findingId": 3304, "description": "Is there a sunken sore or wound surrounded by a raised area of skin larger than your thumbnail?", "name": "Plaque with Ulcer", "icon": "plaque-with-ulcer"}
+			]}
+		]}
+	}
+]}

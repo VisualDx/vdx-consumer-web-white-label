@@ -1,0 +1,316 @@
+.page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.card {
+  max-width: 428px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 0 0 28px 28px;
+  padding-bottom: 32px;
+  min-height: calc(100vh - 10px);
+}
+
+/* Header - Fixed at top */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.backButton {
+  position: absolute;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e8e8e8;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  padding: 0;
+}
+
+.backButton:hover {
+  background: #d8d8d8;
+}
+
+.backButton:active {
+  background: #c8c8c8;
+}
+
+.backIcon {
+  font-size: 24px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  text-align: center;
+  padding: 0 60px;
+}
+
+/* Loading and Error States */
+.loadingMessage,
+.errorMessage {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 16px;
+  color: #666666;
+  background: #ffffff;
+}
+
+.errorMessage {
+  color: #e53935;
+}
+
+.ctaWrap {
+  padding: 20px;
+  text-align: center;
+}
+
+.errorBackButton {
+  padding: 12px 32px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.errorBackButton:hover {
+  background: #1565c0;
+}
+
+.errorBackButton:active {
+  background: #0d47a1;
+}
+
+.content {
+  padding-bottom: 0;
+}
+
+/* Image Carousel */
+.carouselContainer {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.carouselItem {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.carouselImage {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  background-color: #000;
+}
+
+.imageCaption {
+  padding: 0.75rem 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 0.875rem;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Carousel Navigation Buttons - Desktop Only */
+.carouselNavButton {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .carouselNavButton {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s ease, background 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .carouselContainer:hover .carouselNavButton {
+    opacity: 1;
+  }
+
+  .carouselNavButton:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .carouselNavButton:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  .carouselNavPrev {
+    left: 16px;
+  }
+
+  .carouselNavNext {
+    right: 16px;
+  }
+
+  .carouselNavIcon {
+    font-size: 32px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+  }
+}
+
+/* Image Counter */
+.imageCounter {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  z-index: 5;
+}
+
+/* Text Sections */
+.sections {
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.sectionContent {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.sectionContent p {
+  margin: 0.75rem 0;
+}
+
+.sectionContent ul,
+.sectionContent ol {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+}
+
+.sectionContent li {
+  margin: 0.5rem 0;
+}
+
+.sectionContent strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.sectionContent em {
+  font-style: italic;
+}
+
+.noContent {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .carouselImage {
+    max-height: 500px;
+  }
+
+  .sections {
+    padding: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .sectionContent {
+    font-size: 1.0625rem;
+  }
+}
